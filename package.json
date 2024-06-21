@@ -1,7 +1,7 @@
 {
   "name": "backend-server",
   "version": "1.0.0",
-  "main": "dist/index.js", 
+  "main": "dist/index.js",
   "scripts": {
     "start": "nodemon --exec ts-node src/index.ts -- --port 3000"
   },
@@ -15,8 +15,9 @@
     "typescript": "^5.5.2"
   },
   "dependencies": {
-    "express": "^4.19.2"
-    
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security"
   },
   "description": ""
 }
